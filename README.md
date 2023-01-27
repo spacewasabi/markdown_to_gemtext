@@ -21,5 +21,7 @@ There's multiple tasks to add to the script :
 * parsing markdown file - ✅
 * change markdown links to gemtext links - ❌
 * change markdown images to gemtext image link - ❌
-* more syntax changes to match gemtext markup syntax - ❌
+* change markdown lists to gemtext lists - ❌
+* change markdown quotes to gemtext quotes - ❌
+* change markdown codeblocks to gemtext codeblocks - ❌
 * save to gemtext file - ✅
