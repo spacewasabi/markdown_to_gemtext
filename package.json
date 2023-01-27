@@ -1,0 +1,22 @@
+{
+  "name": "markdown_to_gemtext",
+  "version": "1.0.0",
+  "description": "Markdown to Gemtext converter in NodeJS",
+  "main": "md_to_gmi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacewasabi/markdown_to_gemtext.git"
+  },
+  "author": "Wasabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacewasabi/markdown_to_gemtext/issues"
+  },
+  "homepage": "https://github.com/spacewasabi/markdown_to_gemtext#readme",
+  "dependencies": {
+    "marked": "^4.2.12"
+  }
+}
