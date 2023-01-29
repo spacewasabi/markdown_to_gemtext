@@ -3,7 +3,7 @@ const marked = require('marked');
 
 // function to convert markdown to gemtext
 const convertMarkdownToGemtext = (markdown) => {
-    return marked(markdown, { renderer: new marked.Renderer() });
+    return marked.parse(markdown, { renderer: new marked.Renderer() });
 };
 
 // get file name from command-line argument
@@ -15,6 +15,8 @@ fs.readFile(fileName, 'utf8', (err, data) => {
 
     // convert markdown to gemtext
     const gemtext = convertMarkdownToGemtext(data);
+
+    console.log(gemtext);
 
     // get output file name by replacing the file extension
     const outputFileName = fileName.replace(/\.md$/, '.gmi');
