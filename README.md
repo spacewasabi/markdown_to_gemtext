@@ -16,6 +16,10 @@ As of now, if you want to run the script, make sure you have a recent version of
 node path/to/md_to_gmi.js path/to/example.md
 ```
 
+## Dependencies
+
+* [MarkedJS](https://marked.js.org)
+
 ## Guidelines
 
 There's multiple tasks to add to the script :
